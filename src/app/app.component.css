@@ -1,0 +1,52 @@
+.counter-container {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 120%;
+    background-color: rgb(96, 174, 226);
+    transition: width 0.5s ease-in-out;
+  }
+  
+  h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3rem;
+  }
+  .center-input {
+    margin-left: 25%;
+  }
+  .title-page{
+    margin-left: 20%;
+  }
+  .inbox{
+    height: 60vh !important;
+    border: 1px solid #a5a5a5;
+    width: 100% !important;
+  }
+  .list-email{
+    border-bottom: 1px solid #a5a5a5;
+    padding-bottom: 1rem;
+  }
+  .list-email:hover{
+    background-color: #e6e6e6 !important;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  ul{
+    list-style: none;
+  }
+  dl, ol, ul {
+    margin-top: 5px !important;
+  }

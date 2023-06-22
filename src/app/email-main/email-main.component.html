@@ -1,0 +1,10 @@
+<div class="email-datails mt-3 p-3">
+    <ng-container *ngIf="!fromAddr && !headerSubject && !bodyText">
+        <p>Clique em um email para expandi-lo</p>
+    </ng-container>
+    <ng-container *ngIf="fromAddr || headerSubject || bodyText">
+        <p>{{ fromAddr }}</p>
+        <p>{{ headerSubject }}</p>
+        <p>{{ bodyText }}</p>
+    </ng-container>
+</div>

@@ -1,0 +1,6 @@
+PROBLEMA DE VERSÃO
+CORS
+APRENDER A USAR: https://cors-anywhere.herokuapp.com/
+ENVIAR HEADER
+consumir lista
+entrar na sessão
